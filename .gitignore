@@ -1,0 +1,13 @@
+.env
+all-audio/
+transcripts/
+transcripts_by_whisper_model/
+source_data/
+whisper-model-transcripts/
+source_data/
+new-10-scripts/
+new-10-adjusted-scripts/
+all-audio/
+marcel-code/
+youtube-audio-clips/
+tiktok-audio-clips/
