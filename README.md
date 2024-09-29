@@ -1,4 +1,4 @@
-## Introduction
+## YouTube Audio Scraper
 
 This repository contains a Python script that allows you to fetch both audio and video transcripts from a YouTube channel.
 
