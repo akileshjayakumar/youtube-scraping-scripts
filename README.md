@@ -1,19 +1,31 @@
-## YouTube Audio Scraper
+# YouTube Audio Scraper
 
-This repository contains a Python script that allows you to fetch both audio and video transcripts from a YouTube channel.
+This repository provides Python scripts to extract both audio and video transcripts from a YouTube channel using the YouTube API.
 
 ## Installation
 
-1. Install the necessary dependencies by running the following command:
+1. Install dependencies:
 
-   ```
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-2. Create a `.env` file in the `youtube-scraper` directory and add your YouTube API key. The `.env` file should contain the following line:
+2. Set up your API key:
 
-   ```
-   YOUTUBE_API_KEY=your-api-key
-   ```
+Create a `.env` file inside the `youtube-scraper` directory and add:
 
-   Replace `your-api-key` with your actual YouTube API key. For more details on how to create a youtube api key, follow this [guide](https://medium.com/@momayiz.imane/scraping-youtube-video-transcripts-5e3edee5656b).
+```env
+YOUTUBE_API_KEY=your-api-key
+```
+
+Replace `your-api-key` with your actual YouTube API key.  
+For help generating an API key, follow this [guide](https://developers.google.com/youtube/registering_an_application).
+
+## Structure
+
+- `python-scripts/` – Core Python scripts for transcript extraction.
+- `notebooks/` – Jupyter notebooks for analysis or experimentation.
+
+## Notes
+
+Ensure your API quota is sufficient, especially when processing larger channels.
